@@ -138,7 +138,7 @@ if st.button("Predict"):
     }
 
     response = requests.post(
-        "http://127.0.0.1:8000/predict",
+        "http://https://customer-churn-api-ilo7.onrender.com/predict",
         json=customer
     )
 
